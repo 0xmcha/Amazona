@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.card {
+  @apply mb-5 block rounded-lg border  shadow-lg;
+}
+
+.primary-button {
+  @apply rounded duration-100 text-[#fff] bg-[#f7345b] py-2 px-4 shadow outline-none hover:bg-[#e04161] active:bg-slate-500;
+}
+
+input,
+select,
+textarea {
+  @apply rounded border p-2 outline-none  focus:ring;
+}
+.dropdown-link {
+  @apply flex p-2 hover:bg-gray-200;
+}
+.alert-error {
+  @apply my-3 rounded-lg bg-red-100 p-3 text-red-700;
+}
+.alert-success {
+  @apply m-3 rounded-lg bg-green-100 p-3 text-green-700;
+}
